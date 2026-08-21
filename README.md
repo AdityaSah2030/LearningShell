@@ -1,50 +1,18 @@
-# 🐚 UnderstandingShell
+# Learning Shell
 
-A beginner-friendly guide to understanding **terminals**, **shells**, and the **kernel** — the trio that powers your command-line interactions.
+A beginner-friendly and organized repository designed for learning about terminals, shells, and command-line interfaces.
 
----
+## 🎯 Purpose
 
-## 📁 Project Overview
+This repository aims to demystify what happens under the hood when you type a command into a terminal. It covers the core differences between a terminal, a shell, and the kernel, along with practical breakdowns of how to use various command-line environments like Ubuntu CLI, Windows CMD, and PowerShell.
 
-This repository aims to demystify what happens under the hood when you type a command into a terminal. It covers:
+## 📁 Structure
 
-- The difference between a terminal, a shell, and command-line interpreters like Bash, CMD, and PowerShell.
-- How user commands travel through the system layers to reach the kernel.
-- Practical breakdowns of internal system behavior (like system calls and process creation).
+- [theory.md](./theory.md) - Explains the command execution flow, system architecture, and the differences between terminals, shells, and the kernel.
+- [ubuntu_cli.md](./ubuntu_cli.md) - A comprehensive guide to the Unix/Linux command-line interface and common bash commands.
+- [windows_cmd.md](./windows_cmd.md) - Covers the basics and commonly used commands in the traditional Windows Command Prompt.
+- [windows_powershell.md](./windows_powershell.md) - An introduction to Windows PowerShell with practical examples and scripting basics.
 
----
+## 🌟 Support
 
-## 📄 Current Files
-
-| File Name                       | Description                                      |
-|--------------------------------|--------------------------------------------------|
-| `Terminals, Shells, and Kernel.md` | Explains the command execution flow and system architecture |
-| `Windows CMD.md`               | Covers basics and commonly used CMD commands     |
-| `Windows PowerShell.md`        | Introduction to PowerShell with examples         |
-
----
-
-## 🔜 Upcoming Additions
-
-- `bash.md` — Unix/Linux shell commands and scripting
-- `zsh.md` — Overview of Z Shell
-- Command cheat sheets for various environments
-- Interactive examples and exercises
-
----
-
-## 🎯 Who Is This For?
-
-- Beginners curious about how command-line tools work
-- Students studying operating systems or dev tools
-- Developers who want a clearer picture of the OS internals
-
----
-
-## 🤝 Contributions
-
-Contributions, improvements, and additional examples are welcome! Feel free to fork the repo and submit a pull request.
-
----
-
-*Happy hacking and exploring the shell world!*
+If you find this repository helpful for your learning journey, please consider giving it a **Star** ⭐! Keep learning and keep coding!
